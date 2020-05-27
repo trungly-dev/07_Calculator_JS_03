@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>user login</title>
+</head>
+<body>
+	<div class="align">
+		<img class="logo" src="img/ic_logo.svg">
+		<div class="card">
+			<div class="head">
+				<div></div>
+				<a id="login" class="selected" href="#login">Login</a>
+				<a id="register" href="#register">Register</a>
+				<div></div>
+			</div>
+			<div class="tabs">
+				<div id="announce_text"><p></p><p></p><button type="button" id="btn_back" style="display: none;" >Back</button>
+				</div>
+				<form>
+					<div class="inputs">
+						
+						<div class="input">
+							<input id="un"  placeholder="Username" type="text" required>
+							<img src="img/ic_user.svg">
+						</div>
+						<div class="input">
+							<input id="pw"  placeholder="Password" type="password" required>
+							<img src="img/ic_pass.svg">
+						</div>
+						<label class="checkbox">
+							<input type="checkbox">
+							<span>Remember me</span>
+						</label>
+					</div>
+					<button type="button" id="btn_login" >Login</button>
+				</form>
+				<form>
+					<div class="inputs">
+						<div class="input">
+							<input id="reg_un" placeholder="Username" type="text" required>
+							<img src="img/ic_user.svg">
+						</div>
+						<div class="input">
+							<input id="reg_pw" placeholder="Password" type="password" required>
+							<img src="img/ic_pass.svg">
+						</div>
+						
+						<div class="input">
+							<input id="reg_email" placeholder="Email" type="email" >
+							<img src="img/ic_mail.svg">
+						</div>
+						<div class="input">
+							<input id="reg_fullName" placeholder="Full name" type="text">
+							<!-- <img src="img/ic_mail.svg"> -->
+						</div> 
+						<div class="input">
+							<input id="reg_phoneNum" placeholder="Phone No." type="number">
+							<!-- <img src="img/ic_mail.svg"> -->
+						</div> 
+					</div>
+					<button type="button" id="btn_Register">Register</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/indexSlider.js" ></script>
+
+	<script src="js/loginSignup.js"></script>
+
+</body>
+</html>
